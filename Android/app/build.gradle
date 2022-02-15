@@ -1,0 +1,108 @@
+plugins {
+    id 'com.android.application'
+}
+
+def secretKeysPropertiesFile = rootProject.file("secretKeys.properties")
+def secretKeysProperties = new Properties()
+secretKeysProperties.load(new FileInputStream(secretKeysPropertiesFile))
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "it.unina.ingSw.cineMates20"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "AWS_ACCESS_KEY", secretKeysProperties['AWS_ACCESS_KEY']
+        buildConfigField "String", "AWS_SECRET_KEY", secretKeysProperties['AWS_SECRET_KEY']
+        buildConfigField "String", "S3_BUCKET_NAME", secretKeysProperties['S3_BUCKET_NAME']
+        buildConfigField "String", "DB_PATH", secretKeysProperties['DB_PATH']
+        buildConfigField "String", "FAVOURITES", secretKeysProperties['FAVOURITES']
+        buildConfigField "String", "TO_WATCH", secretKeysProperties['TO_WATCH']
+        buildConfigField "String", "TMDB_API_KEY", secretKeysProperties['TMDB_API_KEY']
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        coreLibraryDesugaringEnabled false
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude "META-INF/LICENSE"
+        exclude "META-INF/license.txt"
+        exclude "META-INF/LICENSE.txt"
+        exclude "META-INF/NOTICE"
+        exclude "META-INF/NOTICE.txt"
+        exclude "META-INF/notice.txt"
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+
+    implementation 'com.amplifyframework:core:1.6.8'
+    implementation 'com.amplifyframework:aws-auth-cognito:1.6.8'
+    implementation 'com.amplifyframework:aws-storage-s3:1.6.11'
+    implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.20.1'
+    implementation 'com.amazonaws:aws-android-sdk-cognito:2.16.7'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'com.facebook.android:facebook-android-sdk:8.2.0'
+    implementation 'com.facebook.android:facebook-login:8.2.0'
+
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.2'
+    implementation 'androidx.navigation:navigation-ui:2.3.2'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation fileTree(dir: 'C:\\Users\\fborz\\OneDriveUnina\\OneDrive - Università di Napoli Federico II\\CineMates20\\Implementazione', include: ['*.aar', '*.jar'], exclude: [])
+
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.2'
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // Rounded Image View
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    // Navigation Component
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.2'
+
+    //TheMovieDb API wrapper
+    implementation group: 'info.movito', name: 'themoviedbapi', version:'1.10'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Slider per le immagini
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+
+    //Dipendenza per "Mostra altro" nella pagina dei film
+    implementation 'com.github.AhmMhd:SeeMoreTextView-Android:1.0.0'
+
+    implementation 'org.springframework.android:spring-android-rest-template:2.0.0.M2'
+    implementation 'org.apache.httpcomponents:httpclient-android:4.3.5'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.0'
+}
