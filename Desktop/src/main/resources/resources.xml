@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="CSS_CLASS_INPUT_ERROR">inputError</entry>
+    <entry key="DIRECTORY_FXML">FXML</entry>
+
+    <!--Nomi dei file di layout, privi di estensione-->
+    <entry key="LOGIN_LAYOUT">login</entry>
+    <entry key="HOME_LAYOUT">home</entry>
+    <entry key="NAVIGATION_MENU_LAYOUT">navigation_menu</entry>
+    <entry key="REPORT_MOVIE_ITEM_LAYOUT">report_movie_item</entry>
+    <entry key="REPORT_USER_ITEM_LAYOUT">report_user_item</entry>
+    <entry key="REPORT_USERS_CONTAINER_DETAILS_LAYOUT">report_users_container_details</entry>
+    <entry key="REPORT_MOVIES_CONTAINER_DETAILS_LAYOUT">report_movies_container_details</entry>
+
+    <!-- Path admin -->
+    <entry key="ADMIN_PATH">Admin/</entry>
+
+    <!-- Path segnalazioni -->
+    <entry key="REPORT_PATH">Report/</entry>
+    <entry key="UPDATE_MOVIE_REPORT_PATH">administratorHandledMovieReport</entry>
+    <entry key="UPDATE_USER_REPORT_PATH">administratorHandledUserReport</entry>
+
+    <!-- Path metodi admin -->
+    <entry key="GET_PSW_HASH_PATH">getHashPassword</entry>
+    <entry key="EMAIL_ALREADY_EXISTS_PATH">emailHashAlreadyExists</entry>
+    <entry key="GET_BASIC_ADMIN_INFO_PATH">getBasicAdminInfo</entry>
+
+    <!-- TmdbApi -->
+    <entry key="FIRST_PATH_IMAGE">https://www.themoviedb.org/t/p/w185</entry>
+    <entry key="FIRST_PATH_IMAGE_ORIGINAL">https://www.themoviedb.org/t/p/original</entry>
+</properties>

@@ -1,0 +1,258 @@
+.container {
+    -fx-background-color: #027db4;
+    -fx-text-inner-color: white;
+}
+
+.styleTextField {
+    -fx-background-color: transparent;
+    -fx-border: 0 0 2px 0;
+    -fx-padding: 0 0 0.5em 0;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-style: solid;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.4em;
+}
+
+.inputError {
+    -fx-background-image: url('image/inputError.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+    -fx-background-size: contain;
+    -fx-padding: 0 2.8em 0.5em 0;
+}
+
+.styleButton {
+    -fx-background-color: #169BD5;
+    -fx-font-weight: bold;
+}
+
+.styleButtonHover:hover {
+    -fx-background-color: #00DAFF;
+    -fx-font-weight: bold;
+}
+
+/**************************************Navigation menu*****************************************/
+
+.button_navigation_menu {
+    -fx-background-color: transparent;
+    -fx-font-size: 1.4em;
+    -fx-border-insets: 1.2em;
+    -fx-border-color: transparent;
+    -fx-border-style: solid;
+}
+
+.white_font_for_button_enabled {
+    -fx-text-fill: white;
+}
+
+.cyan_font_for_button_selected {
+    -fx-text-fill: cyan;
+}
+
+.button_navigation_menu_enabled:hover {
+    -fx-background-color: #169BD5;
+}
+
+#last_button:hover {
+    -fx-background-color: #169BD5;
+    -fx-background-radius: 0 0 2em 2em;
+}
+.black_border {
+    -fx-border-insets: 1.2em;
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-radius: 2em;
+}
+
+.up_black_line .line{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 0.1em 0 0 0 ;
+    -fx-background-color: transparent;
+}
+
+/**************************************Stile header Navigation menu*****************************************/
+
+.admin_style {
+    -fx-text-fill: white;
+    -fx-font-size: 1.7em;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 0 0.5em;
+}
+
+/**************************************Icone tasti Navigation menu*****************************************/
+
+.adv_icon {
+    -fx-image: url("image/icon/navigation_menu/adv.png");
+}
+
+.info_icon {
+    -fx-image: url("image/icon/navigation_menu/info.png");
+}
+
+.logout_icon {
+    -fx-image: url("image/icon/navigation_menu/logout.png");
+}
+
+.recommend_icon {
+    -fx-image: url("image/icon/navigation_menu/messaggio_promozionale.png");
+}
+
+.pending_icon {
+    -fx-image: url("image/icon/navigation_menu/pending.png");
+}
+
+.statistics_icon {
+    -fx-image: url("image/icon/navigation_menu/statistiche.png");
+}
+
+.history_icon {
+    -fx-image: url("image/icon/navigation_menu/history.png");
+}
+
+.padding_1em {
+    -fx-padding: 1em;
+}
+
+.white_title {
+    -fx-text-fill: white;
+    -fx-font-size: 3.4em;
+    -fx-font-weight: bold;
+}
+
+.film_icon {
+    -fx-image: url("image/icon/report_icons/film.png");
+}
+
+.utenti_icon {
+    -fx-image: url("image/icon/report_icons/utenti.png");
+}
+
+.commenti_icon {
+    -fx-image: url("image/icon/report_icons/commenti.png");
+}
+
+.recensioni_icon {
+    -fx-image: url("image/icon/report_icons/recensioni.png");
+}
+
+.messaggi_icon {
+    -fx-image: url("image/icon/report_icons/messaggi.png");
+}
+
+.report_button_style {
+    -fx-background-color: #F0F0F0;
+    -fx-padding: 1em;
+    -fx-background-radius: 1em;
+    -fx-border-radius: 1em;
+    -fx-border-width: 0.1em;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.report_button_style_enabled:hover {
+    -fx-background-color: #00C7FF;
+}
+
+.report_button_style_disabled {
+    -fx-background-color: #A0A0A0;
+    -fx-padding: 1em;
+    -fx-background-radius: 1em;
+    -fx-border-radius: 1em;
+    -fx-border-width: 0.1em;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.black_font_for_button_report {
+    -fx-text-fill: black;
+    -fx-font-size: 1.7em;
+    -fx-font-weight: bold;
+}
+
+.left_line {
+    -fx-border-color: transparent transparent transparent black;
+}
+
+.margin_3em {
+    -fx-border-insets: 3em;
+}
+
+/**************************************Tasti item segnalazioni*****************************************/
+
+.report_item_button_style {
+    -fx-background-color: #F0F0F0;
+    -fx-padding: 1em;
+    -fx-background-radius: 1em;
+    -fx-border-radius: 1em;
+    -fx-border-width: 0.1em;
+    -fx-border-color: black;
+    -fx-max-width: 25em;
+    -fx-max-height: 10em;
+}
+
+.report_item_button_style_enabled:hover {
+    -fx-background-color: #00C7FF;
+}
+
+/*****************************************Searchbar - Toolbar**********************************************/
+
+.searchBoxLabel {
+    -fx-padding: 0 2 0 7;
+}
+
+.searchBoxStyle {
+    -fx-background-radius: 2em;
+    -fx-text-fill: black;
+    -fx-font-size: 1.5em;
+    -fx-border-radius: 2em;
+    -fx-border-color: black;
+}
+
+/*****************************************Report Button**********************************************/
+
+.approvaButton {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+.approvaButton:hover {
+    -fx-background-color: #E50000;
+}
+
+.rigettaButton {
+    -fx-background-color: white;
+}
+
+.rigettaButton:hover {
+    -fx-background-color: #D0D0D0;
+}
+
+.oscuraButton {
+    -fx-background-color: #141414;
+    -fx-text-fill: white;
+}
+
+.oscuraButton:hover {
+    -fx-background-color: black;
+}
+
+.university_logo {
+    -fx-image: url("image/logo_federico_secondo.png");
+}
+
+.information_title {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 3.5em;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 0 0.5em;
+    -fx-font-style: italic;
+}
+
+.information_text {
+    -fx-text-fill: white;
+    -fx-font-size: 2em;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 0 0.5em;
+    -fx-font-style: italic;
+}
