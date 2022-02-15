@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">CineMates20</string>
+
+    <string name="networkNotAvailable">Connessione ad internet non disponibile!</string>
+
+    <string name="effettuaLoginLabel">Effettua Login</string>
+    <string name="action_sign_in">LOGIN</string>
+
+    <string name="prompt_email_or_username">Indirizzo e-mail o username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_conferma_password">Conferma password</string>
+    <string name="prompt_nome">Nome</string>
+    <string name="prompt_cognome">Cognome</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_email">Indirizzo e-mail</string>
+    <string name="prompt_conferma_codice">Codice di verifica</string>
+    <string name="prompt_esito_segnalazione">Esito: …</string>
+
+    <string name="action_sign_up">REGISTRATI</string>
+    <string name="action_sign_in_short">LOGIN</string>
+    <string name="action_send_code_again">REINVIA&#10;CODICE</string>
+    <string name="action_send_code">INVIA</string>
+    <string name="welcome">"Benvenuto"</string>
+    <string name="invalid_username">E-mail o username non valido</string>
+    <string name="invalid_password">La password deve essere lunga almeno 8 caratteri</string>
+    <string name="login_failed">"Login fallito"</string>
+
+    <string name="effettuaRegistrazioneLabel">Registrazione</string>
+    <string name="confermaCodiceRegistrazioneLabel">Inserisci il codice di \nverifica ricevuto via mail</string>
+    <string name="pswDimenticataLabel">Password dimenticata?</string>
+    <string name="nuovoAccountLabel">Crea un nuovo account</string>
+    <string name="loginSocialLabel">Oppure effettua login\no registrazione con:</string>
+    <string name="googleLogoDescr">Logo di Google</string>
+    <string name="facebookLogoDescr">Logo di Facebook</string>
+    <string name="twitterLogoDescr">Logo di Twitter</string>
+    <string name="avatarDescr">Immagine di profilo scelta durante la registrazione</string>
+    <string name="pencilDescr">Matita che simboleggia la possibilità di modificare l\'immagine del profilo</string>
+
+    <string name="mostra_password_checkbox">Mostra password</string>
+    <string name="cambia_password">Cambia password</string>
+    <string name="descrizione_cambio_password">Inserisci la tua mail e premere invio,\ndopodiché inserisci il codice di verifica\n ricevuto e la tua nuova password.</string>
+
+    <string name="facebook_app_id">1526900177515260</string>
+    <string name="fb_login_protocol_scheme">fb1526900177515260</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profilo</string>
+    <string name="amici">Amici</string>
+    <string name="preferiti">Preferiti</string>
+    <string name="daVedere">Da vedere</string>
+    <string name="liste">Liste</string>
+    <string name="altro">Altro</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="informazioni">Informazioni</string>
+    <string name="logout">Logout</string>
+    <string name="disconnettiti">Disconnettiti</string>
+
+    <string name="search">Cerca</string>
+    <string name="share">Condividi</string>
+    <string name="notification">Notifiche</string>
+    <string name="hamburgerMenu">Hamburger</string>
+    <string name="schermata_di_ricerca">Schermata di ricerca</string>
+    <string name="expandedCoverDescription">Immagine ad alta risoluzione della locandina di un film</string>
+
+    <string name="la_ricerca_non_ha_prodotto_risultati">La ricerca non ha\nprodotto risultati!!</string>
+    <string name="title">Title</string>
+    <string name="description_movie_result_search">Description</string>
+    <string name="description_cover_film">Locandina Film</string>
+    <string name="three_dots_description">Menu per l\'apertura del bottom menu</string>
+    <string name="aggiungi_a_da_vedere">Aggiungi alla lista dei \"Film da vedere\"</string>
+    <string name="aggiungi_a_preferiti">Aggiungi alla lista dei \"Film preferiti\"</string>
+    <string name="segnala_film_icon">Segnala film</string>
+    <string name="segnala_film_text">Segnala questo film come inappropriato</string>
+
+    <string name="first_path_image">https://www.themoviedb.org/t/p/w780</string>
+    <string name="first_path_image_original">https://www.themoviedb.org/t/p/original</string>
+    <string name="description_label_movie_show_details">Descrizione:</string>
+    <string name="titolo">Titolo</string>
+    <string name="cast">Cast</string>
+    <string name="data_di_uscita">Data di uscita:\u0020</string>
+    <string name="regista">Regista:\u0020</string>
+    <string name="genere">Genere:\u0020</string>
+    <string name="durata">Durata:\u0020</string>
+    <string name="votoFilm">0.0</string>
+    <string name="ratingStarDescription">Stella valutazione del film</string>
+    <string name="etaConsigliata">Età minima:\u0020</string>
+    <string name="unavailable">Non disponibile</string>
+    <string name="nome_cognome">Nome Cognome</string>
+    <string name="description_cover_actor">Copertina attore</string>
+    <string name="votoFilmLabel">Voto:</string>
+    <string name="now_showing">Usciti di recente:</string>
+    <string name="most_popular">Film di tendenza:</string>
+    <string name="upcoming">Prossime uscite:</string>
+    <string name="topRated">I più votati:</string>
+    <string name="prompt_lista_vuota">La lista è vuota!</string>
+    <string name="delete">Elimina</string>
+    <string name="selectAll">Seleziona tutti</string>
+    <string name="noDataFound">Nessun dato trovato</string>
+
+    <string name="ExplainUsWhyReportLabel">Spiegaci il motivo della tua segnalazione</string>
+    <string name="otherReasonReport">Altro</string>
+    <string name="describeReasonReportHint">Descrivi la natura della tua segnalazione</string>
+    <string name="action_report">Segnala</string>
+    <string name="reasonReportUser1">Questo è il mio profilo, ma non posso più accedervi</string>
+    <string name="reasonReportUser2">Foto profilo inappropriata</string>
+    <string name="reasonReportUser3">Informazioni profilo errate</string>
+    <string name="reasonReportMovie1">Contenuti non adatti ai minori</string>
+    <string name="reasonReportMovie2">Contenuti offensivi o irrispettosi</string>
+    <string name="reasonReportMovie3">Informazioni film non accurate</string>
+    <string name="feed_example">Feed fittizzi</string>
+
+    <string name="removeFromFavourites">Rimuovi dalla lista dei \"Film preferiti\"</string>
+    <string name="removeFromToWatch">Rimuovi dalla lista dei \"Film da vedere\"</string>
+    <string name="favourites">Preferiti</string>
+    <string name="toWatch">Da vedere</string>
+    <string name="showDetailsMovieButtonsLabel">Aggiungi o rimuovi film da una lista</string>
+    <string name="watchTrailer">Guarda trailer</string>
+
+    <string name="noFriendRequestsAvailable">Non sono presenti richieste di amicizia</string>
+    <string name="noNotificationsAvailable">Non sono presenti notifiche</string>
+    <string name="prompt_nessun_amico">Non sono presenti amici</string>
+
+    <string name="developerInfo1">Carmine Grimaldi N86002551</string>
+    <string name="developerContact1">carmine.grimaldi@studenti.unina.it</string>
+    <string name="developerInfo2">Francesco Borzacchiello N86002541</string>
+    <string name="developerContact2">fran.borzacchiello@studenti.unina.it</string>
+    <string name="developersLabel">Sviluppatori:</string>
+    <string name="contactsLabel">Contatti:</string>
+    <string name="report_subject">Oggetto segnalazione</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="adult_filter">Filtro per adulti [Sperimentale]</string>
+    <string name="messages_header">Messaggi</string>
+    <string name="sync_header">Sincronizza</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">La tua firma</string>
+    <string name="send_messages_title">Tasto invia per inviare</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sincronizza notifiche periodicamente</string>
+
+    <!-- Adult Filter Preferences -->
+    <string name="filter_title">Abilita filtro ricerca per adulti</string>
+
+</resources>

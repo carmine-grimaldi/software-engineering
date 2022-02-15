@@ -1,0 +1,37 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "auth": {
+        "plugins": {
+            "awsCognitoAuthPlugin": {
+                "UserAgent": "aws-amplify-cli/0.1.0",
+                "Version": "0.1.0",
+                "IdentityManager": {
+                    "Default": {}
+                },
+                "CognitoUserPool": {
+                    "Default": {
+                        "PoolId": "eu-west-3_VN56xO6X5",
+                        "AppClientId": "7v2b936dq8hv246iiqpktr965t",
+                        "AppClientSecret": "1htd8e6v26icsqremkprpnpdpilaqudp93fm3u97c8j0d2vg2s4l",
+                        "Region": "eu-west-3"
+                    }
+                },
+                "Auth": {
+                    "Default": {
+                        "authenticationFlowType": "USER_SRP_AUTH"
+                    }
+                }
+            }
+        }
+    },
+
+    "storage": {
+        "plugins": {
+            "awsS3StoragePlugin": {
+                "bucket": "amplify-cinemates20-dev-75004-deployment",
+                "region": "eu-west-3"
+            }
+        }
+    }
+}
